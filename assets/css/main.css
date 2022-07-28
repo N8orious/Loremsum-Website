@@ -21,12 +21,12 @@ Table of Contents
 ------------------------------------------------------*/
 
 ::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 @font-face {
-    font-family: 'HansonBold';
-    src: url('../webfonts/Hanson-Bold.ttf');
+	font-family: 'HansonBold';
+	src: url('../webfonts/Hanson-Bold.ttf');
 }
 
 * {
@@ -44,6 +44,7 @@ body {
 	font-family: 'HansonBold', sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
+	overflow-x: hidden;
 }
 
 a {
@@ -86,7 +87,7 @@ a {
 
 .contact-form input[name=name],
 .contact-form input[name=email],
-.contact-form input[name=business], 
+.contact-form input[name=business],
 .contact-form input[name=phone-number] {
 	float: left;
 	height: 50px;
@@ -113,7 +114,7 @@ a {
 }
 
 .contact-form textarea::-webkit-scrollbar {
-    width: 8px; 
+	width: 8px;
 }
 
 .contact-form input[type=submit] {
@@ -140,17 +141,17 @@ a {
 	clear: both;
 }
 
-.img-cover  {
-    display: block;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.img-cover {
+	display: block;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 /*-----------------------------------------------------
@@ -283,7 +284,7 @@ a {
 	margin: 0 3% 62px 0;
 }
 
-.blog .blog-item:nth-of-type(7){
+.blog .blog-item:nth-of-type(7) {
 	margin-bottom: 0;
 }
 
@@ -361,7 +362,7 @@ a {
 	width: 51%;
 }
 
-.share-links li  {
+.share-links li {
 	display: inline-block;
 	list-style: none;
 }
@@ -530,16 +531,16 @@ a {
 	margin-bottom: 0;
 }
 
-.img-container{
+.img-container {
 	height: 100vh;
 	width: 100%;
 	position: absolute;
-	top:0;
+	top: 0;
 	right: 0;
 	width: 500px;
 }
 
-.item-img.hero-img{
+.item-img.hero-img {
 	margin: 0;
 	padding: 0;
 	height: auto;
@@ -848,6 +849,5 @@ a {
 	font-weight: 400;
 	letter-spacing: 5px;
 	text-transform: capitalize;
-	transition:  all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
-
